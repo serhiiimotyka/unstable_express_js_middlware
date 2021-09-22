@@ -11,3 +11,4 @@ const unstable_server = function (req, res, next) {
     res.status(403).send('ERROR')
   }
 }
+app.use(unstable_server)
